@@ -1,0 +1,14 @@
+server:
+    port: 9090
+dubbo:
+    protocol:
+       port: -1
+    application:
+       name: dubbo-provide
+    scan:
+       basePackages: org.provider.dubbo.service
+    registry:
+       address: zookeeper://127.0.0.1:2181
+
+       
+      

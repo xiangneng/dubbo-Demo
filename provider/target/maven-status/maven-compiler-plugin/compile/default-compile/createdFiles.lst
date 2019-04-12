@@ -1,0 +1,2 @@
+org\provider\dubbo\ProviderApplication.class
+org\provider\dubbo\service\HelloServiceImp.class
